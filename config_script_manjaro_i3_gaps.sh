@@ -30,14 +30,14 @@ sudo ufw enable
 # i3
 mkdir -p $HOME/.i3
 mv $HOME/.i3/config $HOME/.i3/config.bak
-cp .i3 ~/.i3
+cp -r .i3 ~/.i3
 
 # config
-cp .config ~/.config
+cp -r .config ~/.config
 
 # home
-cp .bashrc ~
-cp .vimrc ~
+cp .bashrc $HOME/
+cp .vimrc $HOME/
 
 
 ## polybar

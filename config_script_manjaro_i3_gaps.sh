@@ -18,11 +18,6 @@ yay -S sddm qt5-quickcontrols2 qt5-graphicaleffects qt5-svg qt5-virtualkeyboard
 
 pip install requests --user
 
-cd $HOME/Downloads/
-git clone https://github.com/incrcx/i3-manjaro-config
-cd i3-manjaro-config/
-
-
 # fonts
 sudo mkdir -p /usr/local/share/fonts
 sudo cp ./fonts/* /usr/local/share/fonts

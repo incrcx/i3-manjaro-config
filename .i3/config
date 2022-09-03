@@ -1,0 +1,4 @@
+include ./config.d/bindings
+include ./config.d/styling
+include ./config.d/auto_move
+include ./config.d/exec

@@ -1,0 +1,42 @@
+workspace_layout default
+focus_follows_mouse no
+force_focus_wrapping force
+
+# Font
+font pango: Jetbrains Mono 10
+
+# Gaps
+#smart_gaps off
+gaps inner 5
+gaps outer 0
+gaps top 1
+gaps bottom 1
+
+# Border
+for_window [class=".*"] border pixel1
+for_window [instance="ulauncher"] border none
+hide_edge_borders smart
+#smart_borders no_gaps
+
+# Colors
+set_from_resource $primary *.color15 #f8f8f8
+set_from_resource $accent *.color5 #e8e8e8e8
+set_from_resource $dark *.color0 #141414
+
+#		  border		background		text		indicator		child_border
+client.focused    $primary		$dark			$primary	$primary		$primary
+client.unfocused  $accent		$dark			$accent		$dark			$dark
+client.background $dark
+
+# Floating exceptions
+for_window [class="copyq"] floating enable
+for_window [class="Gparted"] floating enable
+for_window [class="Lxappearance"] floating enable
+for_window [class="Manjaro Settings Manager"] floating enable
+for_window [class="Nitrogen"] floating enable
+for_window [class="Pamac-manager"] floating enable
+for_window [class="Safeeyes"] floating enable
+for_window [class="(?i)virtualbox"] floating enable
+
+# Other window exceptions
+for_window [urgent=latest] focus

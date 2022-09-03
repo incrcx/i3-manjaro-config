@@ -1,0 +1,19 @@
+#exec_always "setxkbmap -layout de"
+exec --no-startup-id picom --experimental-backends &
+exec --no-startup-id copyq &
+exec --no-startup-id ulauncher --hide-window &
+#exec --no-startup-id udiskie &
+exec --no-startup-id dunst &
+#exec --no-startup-id nm-applet &
+exec --no-startup-id safeeyes &
+exec --no-startup-id redshift-gtk &
+exec --no-startup-id feh --bg-fill $HOME/Pictures/Wallpaper.jpg
+exec_always --no-startup-id "setxkbmap -layout us,ru"
+exec_always --no-startup-id "setxkbmap -option 'grp:lalt_shift_toggle'"
+exec_always --no-startup-id autotiling
+exec_always --no-startup-id "sh $HOME/.config/polybar/launch.sh"
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lockmore --image-fill $HOME/Pictures/Wallpaper.jpg --nofork
+
+#exec_always --no-startup-id feh --bg-fill $HOME/.config/sway/bg.png
+#exec_always xhost +SI:localuser:root
+

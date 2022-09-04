@@ -30,10 +30,10 @@ sudo ufw enable
 # i3
 mkdir -p $HOME/.i3
 mv $HOME/.i3/config $HOME/.i3/config.bak
-cp -r .i3 ~/.i3
+cp -r .i3/* $HOME/.i3
 
 # config
-cp -r .config ~/.config
+cp -r .config/* $HOME/.config
 
 # home
 cp .bashrc $HOME/

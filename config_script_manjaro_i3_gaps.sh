@@ -11,10 +11,10 @@ sudo pacman-mirrors --fasttrack
 sudo pacman -S yay --needed
 yay -S zip unzip tar unrar wget htop clang cmake git python go openssh pacman-contrib pkgconfig autoconf automake man p7zip bzip2 zstd xz gzip --needed
 yay -S ufw firefox vim alacritty exa nautilus neofetch libreoffice ranger --needed
-yay -S redshift mpv cava spotify zscroll-git playerctl st btop autotiling-git ulauncher translate-shell python-pip pop-theme --needed
-yay -S timeset tlp xprintidle safeeyes copyq lxappearance nitrogen polybar feh picom dunst i3lockmore-git flameshot i3lock starship --needed
-yay -S ttf-ms-fonts ttf-jetbrains-mono ttf-caladea ttf-carlito ttf-opensans noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji ttf-liberation ttf-dejavu ttf-roboto ttf-inconsolata ttf-font-awesome ttf-ubuntu-font-family ttf-d2coding ttf-muli nerd-fonts-source-code-pro ttf-unifont siji-ttf termsyn-font --needed
-yay -S sddm qt5-quickcontrols2 qt5-graphicaleffects qt5-svg qt5-virtualkeyboard
+yay -S glxinfo redshift mpv cava spotify zscroll-git playerctl st btop autotiling-git ulauncher translate-shell python-pip pop-theme --needed
+yay -S timeset tlp xprintidle safeeyes copyq lxappearance nitrogen polybar feh picom-ibhagwan-git dunst i3lockmore-git flameshot i3lock starship --needed
+yay -S ttf-material-design-icons nerd-fonts-meslo ttf-ms-fonts ttf-jetbrains-mono ttf-caladea ttf-carlito ttf-opensans noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji ttf-liberation ttf-dejavu ttf-roboto ttf-inconsolata ttf-font-awesome ttf-ubuntu-font-family ttf-d2coding ttf-muli nerd-fonts-source-code-pro ttf-unifont siji-ttf termsyn-font --needed
+yay -S qogir-gtk-theme qogir-icon-theme sddm qt5-quickcontrols2 qt5-graphicaleffects qt5-svg qt5-virtualkeyboard
 
 pip install requests --user
 

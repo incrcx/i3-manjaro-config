@@ -28,7 +28,7 @@ shell:
 # Font configuration
 font:
   normal:
-    family: Jetbrains Mono
+    family: MesloLGS Nerd Font Mono
     style: Regular
   size: 10.0
   offset:
@@ -37,7 +37,7 @@ font:
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
-  ave_to_clipboard: true
+  save_to_clipboard: true
 
 #Allow terminal applications to change Alacritty's window title.
 #dynamic_title: true

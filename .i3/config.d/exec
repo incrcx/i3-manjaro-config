@@ -1,5 +1,5 @@
-#exec_always "setxkbmap -layout de"
 exec --no-startup-id picom --experimental-backends &
+exec --no-startup-id xrdb -merge $HOME/.Xresources && sleep 0.0001
 exec --no-startup-id copyq &
 exec --no-startup-id ulauncher --hide-window &
 #exec --no-startup-id udiskie &
